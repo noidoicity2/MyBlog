@@ -12,6 +12,7 @@ import {Post} from './services/Post';
     </li>
   </ul>
   </div>
+  <hr>
 `,
 
   providers:[PostService],
