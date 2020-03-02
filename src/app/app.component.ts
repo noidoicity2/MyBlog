@@ -4,12 +4,14 @@ import {Post} from './services/Post';
 @Component({
   selector: 'app-root',
   template: `<h1>Welcome</h1>
+  <div class='container'>
   <ul>
     <li *ngFor="let post of posts">
       <h3>{{post.title}}</h3>
       <p>{{post.body}}</p>
     </li>
   </ul>
+  </div>
 `,
 
   providers:[PostService],

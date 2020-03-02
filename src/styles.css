@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: cadetblue;
+   
     font-family: sans-serif;
+}
+.container {
+    background-color: cadetblue;
+    width: 80%;
+    margin: auto;
 }
